@@ -5,8 +5,8 @@
  * Plugin URI:  https://github.com/buddhikaperera/white-label-envira-gallery-wordpress-plugin/
  * Description: A plugin to remove Envira Branding on the WordPress Dashboard
  * Author:      Buddhika Perera
- * Author URI:  https://buddhikaperera.com
- * Version:     1.0
+ * Author URI:  https://www.buddhikaperera.com
+ * Version:     1.2
  * Text Domain: envira-gallery-whitelabel
  * Domain Path: languages
  * License:           GPL-2.0+
@@ -18,13 +18,13 @@ if ( ! defined( 'ABSPATH' ) ) {
     die;
 }
 
-add_filter( 'envira_whitelabel', '__return_true' );
+add_filter( 'twpm_envira_whitelabel', '__return_true' );
  
-if ( apply_filters('envira_whitelabel', false )  ):
+if ( apply_filters('twpm_envira_whitelabel', false )  ):
  
-    add_filter( 'envira_whitelabel_name',           'example_envira_whitelabel_name' );
-    add_filter( 'envira_whitelabel_name_singular',  'example_envira_whitelabel_name' );
-    add_filter( 'envira_whitelabel_name_plural',    'example_envira_whitelabel_name_plural' );
+    add_filter( 'twpm_envira_whitelabel_name',           'example_envira_whitelabel_name' );
+    add_filter( 'twpm_envira_whitelabel_name_singular',  'example_envira_whitelabel_name' );
+    add_filter( 'twpm_envira_whitelabel_name_plural',    'example_envira_whitelabel_name_plural' );
     function example_envira_whitelabel_name() {
         return 'Image Gallery';
     }
