@@ -1,7 +1,7 @@
 <?php
 /**
  * Extracted from the developer docs from Envira Gallery Website
- * Plugin Name: Envira Gallery - Whitelabel 
+ * Plugin Name: Envira Gallery Whitelabel 
  * Plugin URI:  https://github.com/buddhikaperera/white-label-envira-gallery-wordpress-plugin/
  * Description: A plugin to remove Envira Branding on the WordPress Dashboard
  * Author:      Buddhika Perera
@@ -9,8 +9,8 @@
  * Version:     1.2
  * Text Domain: envira-gallery-whitelabel
  * Domain Path: languages
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * License: GPL-2.0+
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
 // If this file is called directly, abort.
