@@ -18,18 +18,18 @@ if ( ! defined( 'ABSPATH' ) ) {
     die;
 }
 
-add_filter( 'twpm_envira_whitelabel', '__return_true' );
+add_filter( 'envira_whitelabel', '__return_true' );
  
-if ( apply_filters('twpm_envira_whitelabel', false )  ):
+if ( apply_filters('envira_whitelabel', false )  ):
  
-    add_filter( 'twpm_envira_whitelabel_name',           'example_envira_whitelabel_name' );
-    add_filter( 'twpm_envira_whitelabel_name_singular',  'example_envira_whitelabel_name' );
-    add_filter( 'twpm_envira_whitelabel_name_plural',    'example_envira_whitelabel_name_plural' );
+    add_filter( 'envira_whitelabel_name',           'example_envira_whitelabel_name' );
+    add_filter( 'envira_whitelabel_name_singular',  'example_envira_whitelabel_name' );
+    add_filter( 'envira_whitelabel_name_plural',    'example_envira_whitelabel_name_plural' );
     function example_envira_whitelabel_name() {
-        return 'Image Gallery';
+        return 'Gallery';
     }
     function example_envira_whitelabel_name_plural() {
-        return 'Image Galleries';
+        return 'Galleries';
     }
  
     // actions (Envira):
