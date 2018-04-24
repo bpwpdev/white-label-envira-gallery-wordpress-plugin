@@ -7,7 +7,7 @@
  * Author:      Buddhika Perera
  * Author URI:  https://www.buddhikaperera.com
  * Version:     1.2
- * Text Domain: envira-gallery-whitelabel
+ * Text Domain: egwl
  * Domain Path: languages
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
